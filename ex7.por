@@ -16,7 +16,7 @@ programa
 		
         se(numero1 > numero2){
             se(numero1 > numero3){
-        		escreva(numero1 + " é o maior ")
+        		escreva(numero1 + " é maior ")
         	
         	
             }senao se(numero3 > numero2){
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 520; 
+ * @POSICAO-CURSOR = 318; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -8,21 +8,24 @@ programa
 		inteiro numeroSorteado
 		
 		numeroSorteado = sorteia(1,10)
-		escreva(numeroSorteado)
+		
 
-		para(inteiro a=0; a < 6; a++){
+		para(inteiro a=0; a < 5; a++){
 			escreva("Diga seu número: ")
 		      leia(numero)
 		se(numero == numeroSorteado){
-			escreva("\n Parabéns vc acertou")
+			escreva("\n Parabéns você acertou (= \n")
 		
 		}senao se(numero != numeroSorteado){
-			escreva("\n vc errou")
+			escreva("\n Você errou )= \n")
 
 			
 		}
 		se( numero == numeroSorteado){
-		a = 6
+		a = 5
+		}
+		se(a == 4){
+			escreva("\n Gameover |= , o número era: " + numeroSorteado)
 		}
 		
 	}
@@ -33,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 160; 
+ * @POSICAO-CURSOR = 473; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
