@@ -5,30 +5,35 @@ programa
 	funcao inicio()
 	{
 		inteiro numero
-		escreva("Diga seu número: ")
-		leia(numero)
 		inteiro numeroSorteado
 		
-		
 		numeroSorteado = sorteia(1,10)
+		escreva(numeroSorteado)
+
+		para(inteiro a=0; a < 6; a++){
+			escreva("Diga seu número: ")
+		      leia(numero)
 		se(numero == numeroSorteado){
-			escreva("Parabéns vc acertou")
+			escreva("\n Parabéns vc acertou")
 		
 		}senao se(numero != numeroSorteado){
-			escreva("Vc errou")
+			escreva("\n vc errou")
 
 			
 		}
-		
+		se( numero == numeroSorteado){
+		a = 6
+		}
 		
 	}
+}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 317; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
