@@ -11,6 +11,7 @@ programa
 	     real cnNf
 	     real humanas1, humanas2, humanas3
 	     real humanasNf
+	     real mediageral
 
 //Linguagem//
 	     escreva("Nota de Linguagem1: \n")
@@ -81,6 +82,9 @@ programa
           }senao{
                escreva("Sua nota de Humanas é: " + humanasNf + " --> Aprovado\n")
           }
+          mediageral = (linguagemNf + matNf + cnNf + humanasNf) / 4
+          escreva("MEDIA GERAL: " + mediageral)
+          
                
 
 	}
@@ -90,7 +94,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2761; 
+ * @POSICAO-CURSOR = 2915; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
