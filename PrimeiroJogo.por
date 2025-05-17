@@ -35,6 +35,7 @@ programa
 	     	escreva("Você ganhou mais 3 pontos bônus\n")
 	     }
 		  escreva("Pontuaçao Total da rodada " + a + " do jogador " + jogador1 + " = " +  valordado + "\n")
+		  escreva("Você está na casa " + posj1 + "\n")
 	     }
 		
 		dado1 = sorteia(1,6)
@@ -51,6 +52,7 @@ programa
 	     	escreva("Você ganhou mais 3 pontos bônus\n")
 	     }
 		  escreva("Pontuaçao Total da rodada " + a + " do jogador " + jogador2 + " = " + valordado + "\n")
+		  escreva("Você está na casa " + posj2 + "\n")
 	     }
 	     
 	     
@@ -77,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1369; 
+ * @POSICAO-CURSOR = 972; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
