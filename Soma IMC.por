@@ -20,7 +20,7 @@ programa
 	     	escreva("Você está acima do peso, e seu IMC é: " + imc)
 	     }
 	     se(imc >= 29 e imc > 30){
-	     	escreva("Você está obeso, e seu IMC é: " + imc )
+	     	escreva("Você está com peso alto, e seu IMC é: " + imc )
 	     }
 	     
 	     }
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 159; 
+ * @POSICAO-CURSOR = 533; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

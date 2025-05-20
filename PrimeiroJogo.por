@@ -18,9 +18,44 @@ programa
 	inteiro pontuacaodojogador2
      inteiro posj1 = 0
      inteiro posj2 = 0
+     cadeia tabJog1[50]
+     cadeia tabJog2[50]
 
+ 
 
-	para(inteiro a = 1; a < 6; a++){
+      para(inteiro y=0; y < 50; y++){
+      	tabJog1[y] = "."
+      	tabJog2[y] = "."
+      }
+      
+	para(inteiro a = 1; a < 6; a++){   //PARA PRINCIPAL
+
+		 para(inteiro y=0; y < 50; y++){
+      	tabJog1[y] = "."
+      	tabJog2[y] = "."
+      }
+      
+		escreva("\nTabuleiro do Jogador 1: \n")
+		para(inteiro y=0; y < 50; y++){
+		tabJog1[posj1] = "X"
+          escreva(tabJog1[y])
+          
+      }
+          escreva("\nTabuleiro do Jogador 2: \n")
+          para(inteiro y=0; y < 50; y++){
+          tabJog2[posj2] = "X"
+          escreva(tabJog2[y])
+          
+      }
+         
+
+         	//tabJog1[posj1] = "X"
+         //	tabJog2[posj2] = "X"
+
+      
+         
+		
+		 escreva("\n     ------RODADA " + a + "------\n")
 		dado1 = sorteia(1,6)
 	     dado2 = sorteia(1,6)
 	     escreva(jogador1 + " Jogue os dados clicando X \n")
@@ -55,7 +90,7 @@ programa
 		  escreva("Você está na casa " + posj2 + "\n")
 	     }
 	     
-	     
+	       
 	     }
 	     escreva("\n A pontuação total do " + jogador1 + " é " + posj1)
 	     escreva("\n A pontuação Total do " + jogador2 + " é " + posj2 + "\n")
@@ -66,11 +101,26 @@ programa
 	     }senao{
 	     	escreva(jogador2 + " é o Vencedor!! ")
 	     }
+	     escreva("\nTabuleiro do Jogador 1: \n")
+		para(inteiro y=0; y < 50; y++){
+          escreva(tabJog1[y])
+          
+      }
+          escreva("\nTabuleiro do Jogador 2: \n")
+          para(inteiro y=0; y < 50; y++){
+          escreva(tabJog2[y])
+      }
+         
+          para(inteiro y=0; y < 50; y++){
+         	tabJog1[posj1] = "X"
+         	tabJog2[posj2] = "X"
+         }
 	//pontuacaodojogador1 = dadosJogador1 * 6
 	//pontuacaodojogador2 = dadosJogador2 * 6
 	//escreva("Pontuação Final do " + jogador1 + " é " + pontuacaodojogador1)
 	//escreva("Pontuaçao final do " + jogador2 + " é " + pontuacaodojogador2)
 	
+	 
 	
 	}
 }
@@ -79,7 +129,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 972; 
+ * @POSICAO-CURSOR = 663; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
