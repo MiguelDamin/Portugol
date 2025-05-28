@@ -2,17 +2,23 @@ programa
 {
 	
 	funcao inicio()
-	{
-		real nota[4]
+	{ 
+		inteiro numdenotas = 0
+		escreva("Quantas notas ele vai ter : ")
+		leia(numdenotas)
+		real nota[999]
+		
 		real notafinal
 
 		para(inteiro i=0; i<4; i++){
+               
 			escreva("Nota:" + i + "\n")
 			leia(nota[i])
 			
 		}
+			notafinal = nota[numdenotas] / numdenotas
 		para(inteiro i=0; i<4; i++){
-		notafinal = (nota[0] + nota[1] + nota[2] + nota[3]) / 4
+	
 		escreva("A nota final é " + notafinal)
 		se(notafinal <= 5.9){
 			escreva("\n Aluno Reprovado")
@@ -22,12 +28,13 @@ programa
 		
 	}
 }
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 46; 
+ * @POSICAO-CURSOR = 338; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

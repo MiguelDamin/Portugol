@@ -7,7 +7,7 @@ programa
 		cadeia numero
 		logico temounao = falso
 		inteiro pos = 0
-		logico ehNumero = verdadeiro
+		funcao logico ehNumero(cadeia entrada){
 
 		para(inteiro i=0; i<7; i++){
 			escreva("Número " + i + "\n")
@@ -36,7 +36,8 @@ programa
 		    }
 		    se(temounao == falso e ehNumero == falso){
 		    	 escreva("\n Infelizmente não tem o número desejado ou é uma letra")
-		}
+	
+		    }}
 }
 }
 /* $$$ Portugol Studio $$$ 
@@ -44,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 555; 
+ * @POSICAO-CURSOR = 993; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
